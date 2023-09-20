@@ -1,0 +1,142 @@
+/*Section 1 - Hero Header*/
+.row {
+    height: 600px;
+    
+}
+
+.row {
+    background-image: url(./Images/Header\ Image.jpg);
+}
+
+.content {
+    margin-left: 10%;
+    padding-top: 15px;
+    font-family: arsenal, Helvetica, sans-serif;
+}
+.headline {
+    color: #f46530;
+
+}
+
+.Name {
+    color: white;
+    margin-top: 5rem;
+    font-size: 75px;
+}
+
+.Tagline {
+    color: #f46530;
+}
+
+button {
+    color: #f46530;
+    border-radius: 5px;
+
+}
+
+
+
+/*Section 2 - Resume with skills, experience, and other information*/
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: lightgray;
+    margin: 0px 200px 0px 200px;
+}
+
+.pro-details1 > img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pro-details1 {
+    padding-left: 150px;
+}
+
+.pro-details2 > img {
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.pro-details2 {
+    padding-left: 150px;
+}
+
+
+.pro-details3 > img {
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.pro-details3 {
+    padding-left: 150px;
+}
+.pro-details4 > img {
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.pro-details4 {
+    padding-left: 150px;
+}
+.container {
+    background-color: lightgray;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    color: #f46530;
+}
+
+
+/*Section 3 - Project Showcase*/
+
+.port-details1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    flex-wrap: nowrap;
+}
+
+.port-details1 > h1 {
+    color:#f46530;
+    align-self: center;
+}
+
+.port-details1 img {
+    margin-right: 70px;
+}
+
+body > div.container2 > div > div > ol > li {
+    background-color: #f46530;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+/*Section 4 - About Me*/
+
+.merow {
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+    background-color: aliceblue;
+    gap: 10px;
+    height: auto;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.merow img {
+    border-radius: 25%;
+}
+
+/*Section 5 - Footer and Contact*/
+
+.card {
+    text-align: center;
+}
